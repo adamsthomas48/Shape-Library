@@ -2,9 +2,7 @@ import java.lang.Math.abs
 import kotlin.math.pow
 import kotlin.math.sqrt
 
-class Line(p1: Point, p2: Point) {
-    var point1: Point = p1
-    var point2: Point = p2
+class Line(var point1: Point, var point2: Point): Shape() {
 
     fun getLength(): Double {
         val x = point2.xCoord - point1.xCoord
@@ -20,9 +18,13 @@ class Line(p1: Point, p2: Point) {
         return y/x
     }
 
-    fun move(xDiff: Double, yDiff: Double){
+    override fun getArea(): Double {
+        return 0.00
+    }
+
+    override fun move(xDiff: Double, yDiff: Double){
         point1.move(xDiff, yDiff)
         point2.move(xDiff, yDiff)
-        
+
     }
 }

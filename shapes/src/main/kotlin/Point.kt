@@ -1,7 +1,4 @@
-class Point(x: Double, y: Double) {
-    var xCoord: Double = x
-    var yCoord: Double = y
-
+class Point(var xCoord: Double, var yCoord: Double) {
 
     fun test(){
         println("This is a test")
