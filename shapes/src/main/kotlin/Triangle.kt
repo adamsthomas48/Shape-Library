@@ -20,5 +20,5 @@ class Triangle(var point1: Point, var point2: Point, var point3: Point): Shape()
         point3.xCoord += xDiff
         point3.yCoord += yDiff
     }
-    
+
 }
