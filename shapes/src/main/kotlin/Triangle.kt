@@ -11,14 +11,10 @@ class Triangle(var point1: Point, var point2: Point, var point3: Point): Shape()
     }
 
     override fun move(xDiff: Double, yDiff: Double) {
-        point1.xCoord += xDiff
-        point1.yCoord += yDiff
 
-        point2.xCoord += xDiff
-        point2.yCoord += yDiff
-
-        point3.xCoord += xDiff
-        point3.yCoord += yDiff
+        point1.move(xDiff, yDiff)
+        point2.move(xDiff, yDiff)
+        point3.move(xDiff, yDiff)
     }
 
 }

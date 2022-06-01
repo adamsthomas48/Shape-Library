@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SquareTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-05-16T03:18:15" hostname="Adams-MacBook-Pro.local" time="0.013">
+<testsuite name="SquareTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-05-31T23:47:16" hostname="Adams-MacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="getArea()" classname="SquareTest" time="0.011"/>
+  <testcase name="getArea()" classname="SquareTest" time="0.0"/>
   <testcase name="move()" classname="SquareTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -5,8 +5,7 @@ open class Ellipse(open var center: Point, var xRadius: Double, var yRadius: Dou
     }
 
     override fun move(xDiff: Double, yDiff: Double) {
-        center.xCoord += xDiff
-        center.yCoord += yDiff
+        center.move(xDiff, yDiff)
     }
 
 }

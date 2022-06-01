@@ -15,6 +15,7 @@ internal class TriangleTest {
         assertEquals(10.0, triangle.getArea())
     }
 
+
     @Test
     fun move() {
         triangle.move(1.0, 1.0)

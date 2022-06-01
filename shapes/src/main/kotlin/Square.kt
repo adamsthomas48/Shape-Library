@@ -1,12 +1,3 @@
-class Square(var botLeftPoint: Point, var width: Double): Shape() {
-
-    override fun getArea(): Double {
-        return width * width
-    }
-
-    override fun move(xDiff: Double, yDiff: Double) {
-        botLeftPoint.xCoord += xDiff
-        botLeftPoint.yCoord += yDiff
-    }
+class Square(var botLeftPoint: Point, var width: Double): Rectangle(botLeftPoint, Point(botLeftPoint.xCoord + width, botLeftPoint.yCoord + width) ) {
 
 }
