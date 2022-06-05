@@ -1,7 +1,7 @@
 package Shapes
 
 class CompositeShape(var shape1: Shape, var shape2: Shape): Shape() {
-    override val name = "Shapes.CompositeShape"
+    override val name = "CompositeShape"
     override fun getArea(): Double {
         return shape1.getArea() + shape2.getArea()
     }

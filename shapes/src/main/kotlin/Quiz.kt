@@ -1,4 +1,5 @@
 import Questions.*
+import com.google.gson.Gson
 import java.io.File
 
 class Quiz {
@@ -11,7 +12,7 @@ class Quiz {
 
     fun generateQuestions(questionCount: Int) {
         val factory = QuestionFactory()
-        val shapeOptions = arrayListOf("Circle", "Rectangle", "Square", "Triangle", "Ellipse")
+        val shapeOptions = arrayListOf("Circle", "Rectangle", "Square", "Triangle", "Ellipse", "Star", "Pentagon")
         // for loop from 0 to questionCount
 
         for (i in 0 until questionCount) {
@@ -24,6 +25,8 @@ class Quiz {
                 "Square" -> factory.createSquareQ()
                 "Triangle" -> factory.createTriangleQ()
                 "Ellipse" -> factory.createEllipseQ()
+                "Star" -> factory.createNPointStarQ()
+                "Pentagon" -> factory.createPentagonQ()
                 else -> throw Exception("Invalid shape")
             }
             addQuestion(question)
@@ -39,24 +42,31 @@ class Quiz {
             print("${++questionNumber}: ")
             println(question.questionText)
         }
-
-
-
     }
 
-    fun printAnswers() {
-        for (question in questions) {
-            println(question.answer)
+    fun exportQuestions(fileName: String) {
+        val file = File(fileName)
+        var questionNumber = 0
+        for(question in questions) {
+            file.appendText("${++questionNumber}: " + question.questionText + "\n")
         }
     }
 
-    //create a json file of answers
+
+
+    fun exportAnswers(fileName: String) {
+        val file = File(fileName)
+        // convert answers to json
+        val answers = createDictionary()
+        val json = Gson().toJson(answers)
+        file.writeText(json)
+    }
 
     private fun createDictionary(): HashMap<Int, String> {
         val dictionary = HashMap<Int, String>()
         for(question in questions) {
             // put index of question in questions and questionText in dictionary
-            dictionary.put(questions.indexOf(question), question.answer)
+            dictionary.put(questions.indexOf(question) + 1, question.answer)
         }
         return dictionary
     }

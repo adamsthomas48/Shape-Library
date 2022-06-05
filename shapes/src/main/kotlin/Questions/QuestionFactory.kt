@@ -59,9 +59,34 @@ class QuestionFactory() {
         return TriangleQuestion(triangle)
     }
 
+    fun createPentagonQ(): Question {
+        //create Pentagon with center and sideLength
+        val center = Point(genRandomDouble(), genRandomDouble())
+        val sideLength = genRandomDouble()
+        val pentagon = Pentagon(center, sideLength)
+
+        // create new PentagonQuestion
+        return PentagonQuestion(pentagon)
+    }
+
+    fun createNPointStarQ(): Question {
+        //create NPointStar with center, radius and pointCount
+        val center = Point(genRandomDouble(), genRandomDouble())
+        val radius = genRandomDouble()
+        val pointCount = getRandomInt(5, 10)
+        val nPointStar = NPointStar(center, radius, pointCount)
+
+        // create new NPointStarQuestion
+        return NPointStarQuestion(nPointStar)
+    }
+
     // return a random double between 0 and 100 rounded to the nearest whole number
     fun genRandomDouble(): Double {
         return Math.round(Math.random() * 100.0).toDouble()
+    }
+
+    private fun getRandomInt(min: Int, max: Int): Int {
+        return (Math.random() * (max - min) + min).toInt()
     }
 
 

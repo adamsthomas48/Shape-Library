@@ -1,9 +1,10 @@
 package Shapes
 
-class Pentagon(var center: Point, var sideLength: Double): Shape() {
-    override val name = "Shapes.Pentagon"
+class Pentagon(val center: Point, val sideLength: Double): Shape() {
+    override val name = "Pentagon"
     override fun getArea(): Double {
-        return (5 * sideLength * sideLength * Math.sqrt(25 + 10 * Math.sqrt(5.0)) / 4)
+        // return area of regular pentagon with side length of sideLength
+        return (Math.sqrt(5.0 * (5.0 + 2.0 * Math.sqrt(5.0))) * sideLength * sideLength) / 4.0
     }
 
 
