@@ -1,7 +1,10 @@
+package Shapes
+
 import kotlin.math.pow
 import kotlin.math.sqrt
 
 abstract class Shape {
+    abstract val name: String
 
     // Calculates the area of a shape based on what type it is
     abstract fun getArea(): Double

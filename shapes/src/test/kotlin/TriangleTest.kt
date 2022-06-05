@@ -1,3 +1,5 @@
+import Shapes.Point
+import Shapes.Triangle
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

@@ -1,6 +1,9 @@
+package Shapes
+
 import kotlin.math.abs
 
 class Triangle(var point1: Point, var point2: Point, var point3: Point): Shape() {
+    override val name = "Shapes.Triangle"
     override fun getArea(): Double {
         val bc: Double = point2.yCoord - point3.yCoord
         val ca: Double = point3.yCoord - point1.yCoord

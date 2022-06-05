@@ -1,8 +1,10 @@
-import java.lang.Math.abs
+package Shapes
+
 import kotlin.math.pow
 import kotlin.math.sqrt
 
 class Line(var point1: Point, var point2: Point): Shape() {
+    override val name = "Shapes.Line"
 
     fun getLength(): Double {
         val x = point2.xCoord - point1.xCoord

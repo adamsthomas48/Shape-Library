@@ -1,5 +1,7 @@
-open class Ellipse(open var center: Point, var xRadius: Double, var yRadius: Double): Shape() {
+package Shapes
 
+open class Ellipse(open var center: Point, var xRadius: Double, var yRadius: Double): Shape() {
+    override val name = "Shapes.Ellipse"
     override fun getArea(): Double {
         return Math.PI * xRadius * yRadius
     }
