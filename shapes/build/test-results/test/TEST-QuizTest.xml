@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QuizTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-06T00:53:01" hostname="Adams-MacBook-Pro.local" time="0.094">
+  <properties/>
+  <testcase name="addQuestion()" classname="QuizTest" time="0.0"/>
+  <testcase name="getQuestions()" classname="QuizTest" time="0.001"/>
+  <testcase name="printQuestions()" classname="QuizTest" time="0.053"/>
+  <testcase name="exportAnswers()" classname="QuizTest" time="0.037"/>
+  <testcase name="exportQuestions()" classname="QuizTest" time="0.003"/>
+  <testcase name="generateQuestions()" classname="QuizTest" time="0.0"/>
+  <system-out><![CDATA[1: What is the area of a triangle with the points (24.0, 38.0) (75.0, 82.0) (59.0, 48.0)?
+2: What is the area of a square with a side length of 77.0?
+3: What is the area of a square with a side length of 39.0?
+4: What is the area of a rectangle who's bottom left point has coordinates of(47.0, 78.0) and top right point has coordinates of (21.0, 69.0)
+5: What is the area of a circle with a radius of 91.0?
+6: What is the area of a triangle with the points (8.0, 43.0) (35.0, 6.0) (40.0, 3.0)?
+7: What is the area of a regular pentagon with side length 77.0?
+8: What is the area of a triangle with the points (25.0, 31.0) (5.0, 69.0) (7.0, 25.0)?
+9: What is the area of a triangle with the points (25.0, 60.0) (35.0, 8.0) (67.0, 66.0)?
+10: What is the area of an ellipse with a horizontal radius of 87.0 and a vertical radius of 9.0?
+11: What is the area of an ellipse with a horizontal radius of 36.0 and a vertical radius of 96.0?
+12: What is the area of a regular pentagon with side length 94.0?
+13: What is the area of a regular pentagon with side length 53.0?
+14: What is the area of a circle with a radius of 99.0?
+15: What is the area of a star with 5 points? and a radius of 39.0?
+16: What is the area of an ellipse with a horizontal radius of 6.0 and a vertical radius of 86.0?
+17: What is the area of a circle with a radius of 68.0?
+18: What is the area of a regular pentagon with side length 57.0?
+19: What is the area of a rectangle who's bottom left point has coordinates of(46.0, 54.0) and top right point has coordinates of (7.0, 3.0)
+20: What is the area of a rectangle who's bottom left point has coordinates of(76.0, 57.0) and top right point has coordinates of (43.0, 63.0)
+21: What is the area of an ellipse with a horizontal radius of 86.0 and a vertical radius of 26.0?
+22: What is the area of a circle with a radius of 98.0?
+23: What is the area of an ellipse with a horizontal radius of 80.0 and a vertical radius of 12.0?
+24: What is the area of a rectangle who's bottom left point has coordinates of(39.0, 36.0) and top right point has coordinates of (67.0, 64.0)
+25: What is the area of a square with a side length of 45.0?
+26: What is the area of a rectangle who's bottom left point has coordinates of(35.0, 92.0) and top right point has coordinates of (35.0, 13.0)
+27: What is the area of an ellipse with a horizontal radius of 45.0 and a vertical radius of 58.0?
+28: What is the area of a rectangle who's bottom left point has coordinates of(73.0, 86.0) and top right point has coordinates of (9.0, 27.0)
+29: What is the area of a square with a side length of 60.0?
+30: What is the area of a regular pentagon with side length 36.0?
+31: What is the area of a rectangle who's bottom left point has coordinates of(39.0, 94.0) and top right point has coordinates of (32.0, 91.0)
+32: What is the area of a rectangle who's bottom left point has coordinates of(51.0, 56.0) and top right point has coordinates of (32.0, 2.0)
+33: What is the area of an ellipse with a horizontal radius of 62.0 and a vertical radius of 64.0?
+34: What is the area of a star with 8 points? and a radius of 46.0?
+35: What is the area of a square with a side length of 48.0?
+36: What is the area of a rectangle who's bottom left point has coordinates of(10.0, 95.0) and top right point has coordinates of (9.0, 16.0)
+37: What is the area of a rectangle who's bottom left point has coordinates of(81.0, 47.0) and top right point has coordinates of (97.0, 22.0)
+38: What is the area of a triangle with the points (59.0, 8.0) (22.0, 49.0) (75.0, 81.0)?
+39: What is the area of a square with a side length of 6.0?
+40: What is the area of an ellipse with a horizontal radius of 54.0 and a vertical radius of 13.0?
+41: What is the area of a circle with a radius of 52.0?
+42: What is the area of a square with a side length of 98.0?
+43: What is the area of a triangle with the points (74.0, 96.0) (86.0, 80.0) (45.0, 44.0)?
+44: What is the area of a rectangle who's bottom left point has coordinates of(48.0, 78.0) and top right point has coordinates of (75.0, 59.0)
+45: What is the area of a star with 9 points? and a radius of 39.0?
+46: What is the area of a triangle with the points (43.0, 40.0) (55.0, 56.0) (21.0, 50.0)?
+47: What is the area of a star with 5 points? and a radius of 15.0?
+48: What is the area of a rectangle who's bottom left point has coordinates of(32.0, 81.0) and top right point has coordinates of (97.0, 58.0)
+49: What is the area of a triangle with the points (85.0, 77.0) (48.0, 29.0) (25.0, 36.0)?
+50: What is the area of a rectangle who's bottom left point has coordinates of(29.0, 73.0) and top right point has coordinates of (70.0, 97.0)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -2,7 +2,7 @@ package Questions
 
 import Shapes.Triangle
 
-class TriangleQuestion(val triangle: Triangle): Question(triangle) {
+class TriangleQuestion(private val triangle: Triangle): Question(triangle) {
     override val questionText: String
         get() = ("What is the area of a triangle with the points " +
                 "(${triangle.point1.xCoord}, ${triangle.point1.yCoord}) " +

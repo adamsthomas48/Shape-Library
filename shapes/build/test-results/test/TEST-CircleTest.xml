@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CircleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-06-05T23:42:01" hostname="Adams-MacBook-Pro.local" time="0.016">
+<testsuite name="CircleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-06-06T00:53:01" hostname="Adams-MacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="getArea()" classname="CircleTest" time="0.013"/>
-  <testcase name="getName()" classname="CircleTest" time="0.001"/>
+  <testcase name="getArea()" classname="CircleTest" time="0.0"/>
+  <testcase name="getName()" classname="CircleTest" time="0.0"/>
   <testcase name="setCenter()" classname="CircleTest" time="0.0"/>
   <testcase name="getCenter()" classname="CircleTest" time="0.001"/>
   <testcase name="getRadius()" classname="CircleTest" time="0.0"/>
